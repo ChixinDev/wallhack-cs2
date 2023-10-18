@@ -14,7 +14,7 @@ client = pymem.process.module_from_name(pm.process_handle, "client.dll").lpBaseO
 print ('')
 print ('>>> Получение оффсетов...')
 
-offsets = 'https://raw.githubusercontent.com/frk1/hazedumper/master/csgo.json'
+offsets = 'https://github.com/ChixinDev/wallhack-cs2/blob/main/cheat.py'
 response = requests.get(offsets).json()
 
 dwGlowObjectManager = int(response["signatures"]["dwGlowObjectManager"])
